@@ -44,35 +44,38 @@
     </table></i></font>
     <br>
     <br>
-    <font color="red"><b><i>4) Create radio button (MERN, MEAN : course)and<br>
-        checkbox(HTML, CSS, React, Node : technology) and<br>
-        explain the difference between these two .</i></b></font><br>
+    <font color="red"><b><i>4) Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(Male,Female) and one submit button.<br>
+         When you click on that button the value should be shown in the URL.</i></b></font><br>
         <font color="blue"><i><form>
-         <p><b><i>Choose your course :</i></b></p>
-            <input type="radio" name="course" id="MERN" value="Mern">
-            <label for="MERN"><b>MERN</b></label>
-            <br>
-            <input type="radio" name="course" id="MEAN" value="Mean">
-            <label for="MEAN"><b>MEAN</b></label>
-            <br>
-            <p><b><i>Choose your technology :</i></b></p>
-            <input type="checkbox" name="Technology" id="HTML" value="HTML" required>
-            <label for="HTML"><b>HTML</b></label>
-            <br>
-            <input type="checkbox" name="Technology2" id="CSS" value="CSS">
-            <label for="CSS"><b>CSS</b></label>
-            <br>
-            <input type="checkbox" name="Technology3" id="React" value="React">
-            <label for="React"><b>React</b></label>
-            <br>
-            <input type="checkbox" name="Technology4" id="Node" value="Node">
-            <label for="Node"><b>Node</b></label>
-            <br>
-            <br>
-            <i><b>Radio :</b> It's used when only one option should be chosen from the given options/choices<br>
-                 ex:Gender</i><br>
-            <i><b>Checkbox :</b> It's used when we have to choose multiple options from the given options/choices<br>
-                 ex:Choosing more than one subject</i>
-       </form></i></font>
+         <label for="Name">Enter your name :</label>
+         <input type="text" name="name" id="Name" placeholder="Enter your name">
+         <br>
+         <label for="Password">Enter your password :</label>
+         <input type="password" name="password" id="Password" placeholder="Enter your password" required>
+         <br>
+         <br>
+         
+         Choose any one course :<br>
+         <input type="radio" name="course" id="HTML" value="HTML">
+         <label for="HTML">HTML</label>
+         <br>
+         <input type="radio" name="course" id="CSS" value="CSS">
+         <label for="CSS">CSS</label>
+         <br>
+         <input type="radio" name="course" id="JS" value="JS">
+         <label for="JS">JS</label>
+         <br>
+         <br>
+         
+         Choose your gender :<br>
+         <input type="checkbox" name="gender" id="male" value="male">
+         <label for="male">Male</label>
+         <br>
+         <input type="checkbox" name="gender" id="female" value="female">
+         <label for="female">Female</label>
+        <br>
+        <br>
+        <input type="submit" value="submit"> 
+        </form></i></font>
 </body>
 </html>
